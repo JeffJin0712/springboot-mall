@@ -12,4 +12,6 @@ public interface ProductDao {
     public Integer createProductLombok(ProductRequestLombok productRequestLombok);
 
     public void updateProduct(Integer productId, ProductRequest productRequest);
+
+    public void deleteProductById(Integer productId);
 }
