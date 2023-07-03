@@ -11,4 +11,5 @@ public interface ProductService {
 
     public Integer createProductLombok(ProductRequestLombok productRequestLombok);
 
+    public void updateProduct(Integer productId, ProductRequest productRequest);
 }
